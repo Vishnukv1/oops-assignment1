@@ -1,0 +1,17 @@
+#square the numbers and return the sum
+class Point:
+    def __init__(self,x,y,z):
+        self.x = x
+        self.y = y 
+        self.z = z 
+
+
+    def sqSum(self):
+        sum = self.x**2+self.y**2+self.z**2
+        return sum
+
+s1 = int(input("entere the first number: "))
+s2 = int(input("enter the second number: "))
+s3 = int(input("enter the third number: "))
+a = Point(s1,s2,s3)
+print(a.sqSum()) 
